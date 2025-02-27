@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }}</title>
+
+    <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+</head>
+<body>
+    <header>
+        <h1>My Hugo Site</h1>
+    </header>
+
+    <main>
+        {{ block "main" . }}{{ end }}
+    </main>
+
+    <footer>
+        <p>© 2025 My Portfolio</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,5 @@
+theme = "my-custom-theme"
+
+[params]
+  defaultTheme = "light"  # Can be "dark" or "auto"
+  showDarkModeToggle = true
