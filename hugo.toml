@@ -6,3 +6,8 @@ theme = "my-custom-theme"
 
 baseURL = "https://fausgaitan.github.io/portfolio-v2/"
 publishDir = "docs"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
