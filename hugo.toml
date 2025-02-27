@@ -5,3 +5,4 @@ theme = "my-custom-theme"
   showDarkModeToggle = true
 
 baseURL = "https://fausgaitan.github.io/portfolio-v2/"
+publishDir = "docs"
