@@ -9,24 +9,27 @@
 <section class="projects">
   <h4>✷ Projects</h4>
   <div class="projects-grid">
-    <a href="/case-studies/dialpad/" class="project-card">
-      <img src="{{ .Site.BaseURL }}images/dialpad.png" alt="Dialpad AI" class="default">
-      <img src="{{ .Site.BaseURL }}images/dialpad-hover.png" alt="Dialpad AI" class="hover">
+    <a href="{{ "case-studies/dialpad/" | relURL }}" class="project-card">
+      <img src="{{ "images/dialpad.png" | relURL }}" alt="Dialpad AI" class="default">
+      <img src="{{ "images/dialpad-hover.png" | relURL }}" alt="Dialpad AI" class="hover">
     </a>
-    <a href="/projects/bonsai/" class="project-card">
-      <img src="{{ .Site.BaseURL }}images/bonsai.png" alt="Bonsai" class="default">
-      <img src="{{ .Site.BaseURL }}images/bonsai-hover.png" alt="Bonsai" class="hover">
+    <a href="{{ "case-studies/bonsai/" | relURL }}" class="project-card">
+      <img src="{{ "images/bonsai.png" | relURL }}" alt="Bonsai" class="default">
+      <img src="{{ "images/bonsai-hover.png" | relURL }}" alt="Bonsai" class="hover">
     </a>
-    <a href="/projects/thirdlove/" class="project-card">
-      <img src="{{ .Site.BaseURL }}images/thirdlove.png" alt="ThirdLove" class="default">
-      <img src="{{ .Site.BaseURL }}images/thirdlove-hover.png" alt="ThirdLove" class="hover">
+    <a href="{{ "case-studies/thirdlove/" | relURL }}" class="project-card">
+      <img src="{{ "images/thirdlove.png" | relURL }}" alt="ThirdLove" class="default">
+      <img src="{{ "images/thirdlove-hover.png" | relURL }}" alt="ThirdLove" class="hover">
     </a>
-    <a href="/projects/ui/" class="project-card">
-      <img src="{{ .Site.BaseURL }}images/ui.png" alt="User Interviews" class="default">
-      <img src="{{ .Site.BaseURL }}images/ui-hover.png" alt="User Interviews" class="hover">
+    <a href="{{ "case-studies/ui/" | relURL }}" class="project-card">
+      <img src="{{ "images/ui.png" | relURL }}" alt="User Interviews" class="default">
+      <img src="{{ "images/ui-hover.png" | relURL }}" alt="User Interviews" class="hover">
     </a>
   </div>
 </section>
 
 
 {{ end }}
+
+
+<img src="{{ "images/dialpad.png" | relURL }}" alt="Dialpad AI" class="default">
