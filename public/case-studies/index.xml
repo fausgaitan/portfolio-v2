@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Case-Studies on </title>
-    <link>//localhost:1313/case-studies/</link>
+    <link>/case-studies/</link>
     <description>Recent content in Case-Studies on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/case-studies/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/case-studies/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bonsai Case Study</title>
-      <link>//localhost:1313/case-studies/bonsai/</link>
+      <link>/case-studies/bonsai/</link>
       <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/case-studies/bonsai/</guid>
+      <guid>/case-studies/bonsai/</guid>
       <description>&lt;p&gt;This is my case study for Bonsai. Here, I&amp;rsquo;ll showcase my design process, challenges, and solutions.&lt;/p&gt;</description>
     </item>
   </channel>

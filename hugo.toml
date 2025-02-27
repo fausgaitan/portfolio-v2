@@ -3,3 +3,5 @@ theme = "my-custom-theme"
 [params]
   defaultTheme = "light"  # Can be "dark" or "auto"
   showDarkModeToggle = true
+
+baseURL = "https://fausgaitan.github.io/portfolio-v2/"
